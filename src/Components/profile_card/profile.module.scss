@@ -1,0 +1,57 @@
+//*************************** TEAM LEADERS ***************************
+
+
+.profile_item {
+  position: relative;
+  height: 45vw;
+  overflow: hidden;
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+.profile-item_inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.profile_image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 35vw;
+}
+
+.profile_text {
+  position: absolute;
+  top: 35vw;
+  padding-top: 20px;
+}
+
+.profile_name, .profile_title {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .profile_item {
+    height: 80vw;
+  }
+
+  .profile_image {
+    height: 65vw
+  }
+}
+
+//*************************** TEAM MEMBERS ***************************
+
+.profile_small {
+  height: 35vw;
+  width: 18% !important;
+  .profile_image {
+    height: 25vw;
+  }
+
+  .profile_text {
+    top: 25vw;
+    padding-top: 20px;
+  }
+}

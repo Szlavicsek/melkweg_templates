@@ -1,0 +1,22 @@
+.footer {
+  width: 90%;
+  margin: 0 auto;
+  height: 10vh;
+  position: relative;
+  background-color: #29222F;
+}
+
+.bottom_left, .bottom_right {
+  font-size: 14px;
+  color: #999;
+  position: absolute;
+  bottom: 50px;
+}
+
+.bottom_left {
+  left: 0;
+}
+
+.bottom_right {
+  right: 0;
+}

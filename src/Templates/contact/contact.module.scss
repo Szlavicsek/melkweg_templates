@@ -1,0 +1,136 @@
+.contact {
+  background-color: #1D1920;
+}
+
+.inner {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.page_top {
+  height: 40vh;
+  background-color: #fff;
+}
+
+.media_wrapper {
+  display: flex;
+  position: absolute;
+  height: 80vh;
+  width: 100%;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+
+.styles.media_wrapper_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.media_image {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.contact_list_wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: calc(40vh + 150px);
+  padding-bottom: 100px;
+}
+
+.contact_box {
+  margin-bottom: 50px;
+}
+
+.contact_box_inner {
+  margin: 0 auto;
+}
+
+.contact_list_element, .contact_title {
+  color: white;
+}
+
+.service_title, .service_list {
+
+}
+
+.contact_list {
+  list-style: none;
+}
+
+.button {
+  background-color: #6E00FF;
+  border-color: #6E00FF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: calc(45vh + 100px);
+}
+
+.whymelkweg {
+  height: 50vw;
+  width: 90%;
+  left: 5%;
+  transform: translateY(-50%);
+  position: absolute;
+  background-color: #ddd;
+}
+
+.team {
+  background-color: #ddd;
+}
+
+.form {
+  background-color: #fff;
+}
+
+.form_header {
+  text-align: center;
+  color: black;
+}
+
+.form_container {
+}
+
+input, label {
+  display: block;
+}
+
+.submitButton {
+  display: inline-block;
+  background-color: purple;
+}
+
+.cancelButton {
+  display: inline-block;
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+
+.hello_image_container {
+  background-color: #fff;
+}
+
+.hello_image {
+  display: block;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.latest_works_wrapper {
+  background-color: #29222F;
+}
+
+.latest_works_header {
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
